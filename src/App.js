@@ -1,10 +1,11 @@
-import './assets/css/App.css';
-import Header from './components/Header';
+import './App.css';
+import {Navbar, Footer} from './main_sections/index';
 
 function App() {
   return (
     <div className='min-h-screen'>
-      <Header />
+      <Navbar />
+      <Footer />
     </div>
   );
 }

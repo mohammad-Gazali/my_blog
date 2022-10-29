@@ -1,4 +1,4 @@
-import '../../assets/css/comp_style/Landscape.css';
+import './Landscape.css';
 
 function Landscape(props) {
     return(
