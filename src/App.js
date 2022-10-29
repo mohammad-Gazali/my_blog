@@ -1,5 +1,6 @@
+// import {BrowserRouter as Link, Router, Routes, Route} from 'react-router-dom';
 import './App.css';
-import {Navbar, Footer} from './main_sections/index';
+import {Navbar, Footer} from './main_sections';
 
 function App() {
   return (

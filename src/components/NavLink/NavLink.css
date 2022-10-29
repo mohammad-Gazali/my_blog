@@ -1,0 +1,20 @@
+#collapse-list-nav {
+    transition: .2s ease-in-out;
+    transform: scaleY(0);
+    transform-origin: top;
+}
+
+#collapse-list-nav.active-nav-list {
+    transform: scaleY(1);
+}
+
+@media (max-width: 330px) {
+    nav {
+        padding-right: 1rem !important;
+        padding-left: 1rem !important;
+    }
+
+    #collapse-list-nav {
+        padding-left: 1rem !important;
+    }
+}
