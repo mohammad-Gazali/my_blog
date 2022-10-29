@@ -28,7 +28,7 @@ function Navbar(props){
                         <FaBars style={{fontSize: 30}}/>
                     </div>
                 </div>
-                <ul className='hidden md:flex flex-row items-center justify-center gap-5 text-white'>
+                <ul className='hidden md:flex flex-row items-center justify-center gap-6 text-white'>
                     <NavLink name='Home' href='/#' />
                     <NavLink name='About' href='/#' />
                     <NavLink name='Blog' href='/#' />
