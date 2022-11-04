@@ -1,0 +1,37 @@
+.my-footer-link {
+    transition: .2s ease;
+    width: fit-content;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.my-footer-link span {
+    position: absolute;
+    transform: rotate(-10deg) scale(0);
+    transition: .2s ease;
+    border-radius: 4px;
+    padding: .25rem .5rem;
+}
+
+.my-footer-link:hover span {
+    transform: rotate(0deg) scale(1);
+    transition: .2s ease;
+    transition-delay: .2s;
+    color: #3e92cc;
+    background: #fffaff;
+}   
+
+.my-footer-link div {
+    position: absolute;
+    transform: rotate(360deg) scale(1);
+    transition: .2s ease;
+    transition-delay: .4s;
+}
+
+.my-footer-link:hover div {
+    transform: rotate(0deg) scale(0);
+    transition: .2s ease;
+}
