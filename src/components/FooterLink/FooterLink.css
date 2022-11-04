@@ -12,7 +12,7 @@
     position: absolute;
     transform: rotate(-10deg) scale(0);
     transition: .2s ease;
-    border-radius: 4px;
+    border-radius: 20px;
     padding: .25rem .5rem;
 }
 
