@@ -11,6 +11,7 @@ nav ul li {
 
 #collapse-list-nav.active-nav-list {
     transform: scaleY(1);
+    border-top: 2px solid #fffaff;
 }
 
 @media (max-width: 330px) {
@@ -21,5 +22,11 @@ nav ul li {
 
     #collapse-list-nav {
         padding-left: 1rem !important;
+    }
+}
+
+@media (max-width: 768px) {
+    nav, #collapse-list-nav {
+        background-color: #1e1b18 !important;
     }
 }

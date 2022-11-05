@@ -1,3 +1,15 @@
 * {
     font-family: 'Roboto', sans-serif !important;
 }
+
+.my-shadow-sep-t {
+    box-shadow: 0px 0px 20px #00000071;
+}
+
+.my-shadow-sep-b {
+    box-shadow : 0px 0px 20px #00000071;
+}
+
+.my-shadow-sep-y {
+    box-shadow: 0px 0px 20px #00000071, 0px 0px 20px #00000071;
+}

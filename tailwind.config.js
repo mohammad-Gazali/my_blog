@@ -10,7 +10,9 @@ module.exports = {
         myred: "#d8315b",
         mylight: "#fffaff",
         mylightblue: "#3e92cc",
-        mydarkblue: "#0a2463"
+        mydarkblue: "#0a2463",
+        myyellow: "#facc15",
+        primary: "#0048d0",
       }
     },
   },
