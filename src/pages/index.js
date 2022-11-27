@@ -1,4 +1,4 @@
-import {default as Home} from './Home/Home'
+import {default as Home} from './Home'
 
 
 export {Home}

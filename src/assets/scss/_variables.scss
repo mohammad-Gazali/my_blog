@@ -1,0 +1,34 @@
+//| Scss Vars
+
+// -------- Colors Vars ---------
+$mydark:      #1e1b18;
+$myred:       #d8315b;
+$mylight:     #fffaff;
+$mylightblue: #3e92cc;
+$mydarkblue:  #0a2463;
+$myyellow:    #facc15;
+$primary:     #0048d0;
+
+$dark-scroll-bar: #0a41a7;
+
+
+// -------- Measure Vars ------------
+$main-border-radius: 0.5rem;
+
+
+
+//| Css Vars
+:root {
+    // -------- Colors Vars ---------
+
+    --mydark:      #1e1b18;
+    --myred:       #d8315b;
+    --mylight:     #fffaff;
+    --mylightblue: #3e92cc;
+    --mydarkblue:  #0a2463;
+    --myyellow:    #facc15;
+    --primary:     #0048d0;
+
+    // -------- Measure Vars ------------
+    --main-border-radius: 0.5rem;
+}

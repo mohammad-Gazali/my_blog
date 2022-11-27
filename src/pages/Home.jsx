@@ -1,10 +1,9 @@
-import './Home.css'
-import { Landscape } from '../../components'
+import { Landscape } from '../components'
 
 
 function Home(props) {
     return (
-        <div>
+        <div className='flex flex-col gap-8'>
             <Landscape />
         </div>
     )

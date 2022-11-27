@@ -1,4 +1,4 @@
-import './FooterLink.css'
+
 
 function FooterLink(props) {
     return (

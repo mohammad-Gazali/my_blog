@@ -1,5 +1,4 @@
-import './Footer.css'
-import { FooterLink } from '../../components'
+import { FooterLink } from '.'
 import { BsGithub, BsTwitter, BsFacebook, BsInstagram } from 'react-icons/bs';
 
 

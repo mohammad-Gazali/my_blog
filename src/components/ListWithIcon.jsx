@@ -1,4 +1,4 @@
-import './ListWithIcon.css'
+
 
 
 function ListWithIcon(props) {

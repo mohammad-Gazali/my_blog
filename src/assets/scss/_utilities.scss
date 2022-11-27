@@ -1,0 +1,5 @@
+// box-shadow
+
+.my-shadow-sep {
+    @include box-shadow(25px, 3px);
+}

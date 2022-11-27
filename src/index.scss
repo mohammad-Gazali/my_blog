@@ -1,0 +1,70 @@
+@import "./assets/scss/variables";
+@import "./assets/scss/mixins";
+@import "./assets/scss/utilities";
+@import "./assets/scss/elements";
+@import "./assets/scss/images";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif !important;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+// scroll bar
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: $primary;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: $dark-scroll-bar;
+}
+
+// brand
+.landscape-brand {
+    font-size: max(8vw, 80px);
+    background: linear-gradient(90deg, $myyellow, $mylight);
+    background-size: 200% 100%;
+    background-position-x: 0%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: land-brand 2s infinite both;
+
+    @keyframes land-brand {
+        0% {
+            background-position-x: 50%;
+        }
+
+        25% {
+            background-position-x: 100%;
+        }
+
+        50% {
+            background-position-x: 50%;
+        }
+
+        75% {
+            background-position: 0%;
+        }
+
+        100% {
+            background-position-x: 50%;
+        }
+    }
+}
