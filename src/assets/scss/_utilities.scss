@@ -3,3 +3,31 @@
 .my-shadow-sep {
     @include box-shadow(25px, 3px);
 }
+
+.my__shake {
+    &:hover {
+        animation: shake .2s linear;
+    }
+}
+
+@keyframes shake {
+    0% {
+        transform: rotate(0deg);
+    }
+    
+    25% {
+        transform: rotate(30deg);
+    }
+
+    50% {
+        transform: rotate(0);
+    }
+
+    75% {
+        transform: rotate(-30deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}

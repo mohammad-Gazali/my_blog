@@ -6,7 +6,7 @@ import {MdOutlineArticle} from 'react-icons/md';
 import { Link } from 'react-router-dom';
 
 
-function Navbar(props){
+function Navbar({className}){
 
     const mainNav = useRef(null);
     const colNavList = useRef(null);
@@ -32,8 +32,8 @@ function Navbar(props){
     const ICONSTYLENAVLIST = {display: 'inline-block', fontSize: 25};
 
     return (
-        <div className='sticky top-0 z-50 w-full'>
-            <nav ref={mainNav} className='w-full px-10 py-5 bg-transparent text-white flex flex-row items-center justify-between opacity-95 transition-all duration-200'>
+        <div className='fixed top-0 z-50 w-full'>
+            <nav ref={mainNav} className='w-full home px-10 py-5 bg-transparent text-white flex flex-row items-center justify-between opacity-95 transition-all duration-200'>
                 <div className='font-bold text-2xl tracking-wide'>
                     <Link to="/">
                         Elgazali
@@ -49,6 +49,7 @@ function Navbar(props){
                     <NavLink name='Home' href='/' />
                     <NavLink name='About' href='/' />
                     <NavLink name='Blog' href='/' />
+                    <NavLink name='Dashboard' href='/dashboard' />
                 </ul>
             </nav> 
             <ul ref={colNavList} id='collapse-list-nav' className='flex-col w-full pl-10 py-5 items-start justify-evenly bg-transparent gap-1 text-white opacity-90 overflow-hidden'>
